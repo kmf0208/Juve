@@ -1,6 +1,9 @@
-var slideIndex = 0;
+var slideIndex = 0; // Variable to keep track of the current slide index
+
 showSlides();
 
+
+// Function to start the slideshow
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -13,10 +16,12 @@ function showSlides() {
     setTimeout(showSlides, 2000); // Change image every 4 seconds
 }
 
+// Function to navigate to the next or previous slide
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
+// Function to navigate to a specific slide
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }

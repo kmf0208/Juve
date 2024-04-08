@@ -1,0 +1,102 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #464F51;
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #000009;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 auto;
+  margin: 0;
+}
+
+nav a {
+  font-size: 1.5em;
+  float: left;
+  color: white;
+  margin: 0;
+  padding: 15px 40px 15px 40px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 2em;
+  padding: 0 auto;
+  margin:  0;
+  color: #DEFFF2;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+.aboutUs {
+  padding: 10% 0 0 0;
+  height: 70vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pimg {
+  width: 80%;
+  /* margin: 0 auto; */
+}
+
+.aboutUs img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.aboutUs h3 {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.aboutUs p {
+  margin: 0 auto;
+  text-align: center;
+  width: 900px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.158); /* Background color */
+    width: 100%; /* Width */
+    height: 6vh; /* Height */
+  }
+  
+  /* Styling for text in the footer */
+  footer p {
+    width: fit-content; /* Setting width to fit content */
+    font-weight: 300; /* Font weight */
+    margin: 0 auto; /* Centering text horizontally */
+    padding: 10px 0 0 0; /* Setting padding */
+  }

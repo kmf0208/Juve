@@ -1,0 +1,141 @@
+/* Setting character encoding to UTF-8 */
+@charset "UTF-8";
+
+/* Resetting margins, padding, and text decoration for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Styling for the body */
+body {
+  background-color: #464F51; /* Background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Removing default text decoration */
+  font-family: "Roboto", sans-serif; /* Font family */
+}
+
+/* Styling for the navigation bar */
+nav {
+  background-color: #000009; /* Background color */
+  list-style: none; /* Removing default list styles */
+}
+
+/* Styling for list items in the navigation bar */
+nav ul li {
+  display: inline-block; /* Displaying list items inline */
+  padding: 0 auto; /* Setting padding */
+  margin: 0; /* Setting margin */
+}
+
+/* Styling for links in the navigation bar */
+nav a {
+  font-size: 1.5em; /* Font size */
+  float: left; /* Floating links to the left */
+  color: white; /* Link color */
+  margin: 0; /* Setting margin */
+  padding: 15px 40px 15px 40px; /* Setting padding */
+  text-decoration: none; /* Removing default text decoration */
+  font-weight: 300; /* Font weight */
+}
+
+/* Styling for unordered lists */
+ul {
+  margin: 0; /* Setting margin */
+  padding: 0; /* Setting padding */
+}
+
+/* Styling for the logo */
+.logo {
+  font-weight: bolder; /* Font weight */
+  font-size: 2em; /* Font size */
+  padding: 0 auto; /* Setting padding */
+  margin: 0; /* Setting margin */
+  color: #DEFFF2; /* Text color */
+}
+
+/* Styling for the main content area */
+main {
+  margin: 0 auto; /* Centering main content */
+  max-width: 80vw; /* Maximum width */
+}
+
+/* Styling for the contact section */
+.contact {
+  height: 40vh; /* Setting height */
+}
+
+/* Styling for the contact container */
+.contactContainer {
+  display: flex; /* Displaying items as flex */
+}
+
+/* Styling for headings in the contact section */
+.contact h3 {
+  font-size: 40px; /* Font size */
+  font-weight: 500; /* Font weight */
+  text-align: center; /* Centering text */
+  margin: 60px 0 30px 0; /* Setting margin */
+}
+
+/* Styling for the halves in the contact section */
+.half {
+  flex: content; /* Flex property */
+  width: 48%; /* Width */
+}
+
+/* Styling for subheadings in the contact section */
+.contact h4 {
+  font-size: 30px; /* Font size */
+  font-weight: 400; /* Font weight */
+  text-align: center; /* Centering text */
+}
+
+/* Styling for links in the contact section */
+.contact h5 {
+  text-align: center; /* Centering text */
+  font-size: 30px; /* Font size */
+  font-weight: 200; /* Font weight */
+  text-decoration: underline; /* Adding underline */
+  margin: 20px; /* Setting margin */
+  text-decoration: none; /* Removing default text decoration */
+  color: white; /* Link color */
+}
+
+/* Styling for secondary links in the contact section */
+.contact h6 {
+  text-align: center; /* Centering text */
+  font-size: 30px; /* Font size */
+  font-weight: 400; /* Font weight */
+  text-decoration: underline; /* Adding underline */
+  margin: 10px; /* Setting margin */
+  text-decoration: none; /* Removing default text decoration */
+  color:white; /* Link color */
+}
+
+/* Styling for additional links in the contact section */
+.contact h5 {
+  text-align: center; /* Centering text */
+  font-size: 30px; /* Font size */
+  font-weight: 200; /* Font weight */
+  text-decoration: underline; /* Adding underline */
+  margin: 10px; /* Setting margin */
+  text-decoration: underline; /* Adding underline */
+  color: blue; /* Link color */
+}
+
+/* Styling for the footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.158); /* Background color */
+  width: 100%; /* Width */
+  height: 6vh; /* Height */
+}
+
+/* Styling for text in the footer */
+footer p {
+  width: fit-content; /* Setting width to fit content */
+  font-weight: 300; /* Font weight */
+  margin: 0 auto; /* Centering text horizontally */
+  padding: 10px 0 0 0; /* Setting padding */
+}
