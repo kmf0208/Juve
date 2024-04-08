@@ -1,1 +1,1 @@
-# Juve
+# The website is focused on football, specially highlighting the Juventus Football Club. The website tends to provide the prominent information, finest moments.
